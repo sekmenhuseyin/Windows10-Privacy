@@ -1,0 +1,15 @@
+Get-AppxPackage -AllUsers *store* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *zune* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *xbox* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *sticky* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *maps* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *alarms* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *people* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *comm* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *mess* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *onenote* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *photo* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *camera* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *bing* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *soundrec* | Remove-AppxPackage
+install_wim_tweak /o /c Microsoft-Windows-Holographic /r
